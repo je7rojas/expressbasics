@@ -1,0 +1,32 @@
+{
+  "name": "classexpressbasic",
+  "version": "1.0.0",
+  "description": "example of express basic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon.app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/je7rojas/expressbasics.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Jeef Rojas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/je7rojas/expressbasics/issues"
+  },
+  "homepage": "https://github.com/je7rojas/expressbasics#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
